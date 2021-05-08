@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_fourni"
+            android:icon="@drawable/fourni_24"
+            android:title="Fournisseur"
+           />
+        <item
+            android:id="@+id/nav_prod"
+            android:icon="@drawable/empl_24"
+            android:title="Produit" />
+
+    </group>
+    <item android:title="Profile">
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/nav_profile"
+                    android:icon="@drawable/icon_profile"
+                    android:title="Profile" />
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/icon_logout"
+                    android:title="Logout" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_consult"
+                android:icon="@drawable/ic_consult"
+                android:title="consult" />
+        </menu>
+    </item>
+
+</menu>
